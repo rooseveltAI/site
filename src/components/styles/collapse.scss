@@ -1,0 +1,41 @@
+.collapsible-card {
+  margin: 25px 0px;
+
+  .drop--down__container {
+    display: flex;
+    align-items: center;
+    height: auto;
+    justify-content: center;
+    background: rgba(127, 90, 240, 0.1);
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-bottom: 1em;
+    cursor: pointer;
+  }
+
+  .title-and-toggle {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+
+    h3 {
+      font-size: 18px;
+
+      // @include for-big-desktop-up {
+      //   font-size: 24px;
+      // }
+    }
+  }
+
+  .body {
+    padding: 0 1em 1em 1em;
+    line-height: 2;
+
+    &.collapsed {
+      display: none;
+    }
+  }
+}

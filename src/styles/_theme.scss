@@ -1,0 +1,53 @@
+:root {
+  --BgColor: #f6f8fa;
+  --NoonBlack_Primary: #030306;
+  --Peach1_Primary: #fbd7ff;
+  --Purple1_Secondary: #7f5af0;
+  --Green_Accent: #7edbc4;
+  --Gray1_Grays: #cbcee5;
+  --Gray2_Grays: #acb3ca;
+  --NoonDark1_Neutrals: #101117;
+  --NoonDark2_Neutrals: #1f2128;
+  --WhiteOpacity90_Neutrals: rgba(255, 255, 255, 0.95);
+  --weBelongGradient: linear-gradient(
+    92.97deg,
+    #fbd7ff 38.11%,
+    #7f5af0 125.34%
+  );
+  --weBelongGradient_Opacity20: linear-gradient(
+    92.97deg,
+    rgba(251, 215, 255, 0.2) 38.11%,
+    rgba(127, 90, 240, 0.2) 125.34%
+  );
+
+  --Bg-overlay: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+
+  // Box Shadows
+  --shadow-rest-state: 0px 4px 20px rgba(128, 142, 155, 0.05);
+  --shadow-tap-state: 0px 8px 20px rgba(128, 142, 155, 0.15);
+
+  // Sizes
+  --vh-100: 100vh;
+
+  --pc-100: 100%;
+
+  // Background Resets
+  --no-repeat: no-repeat;
+  --center-X-Y: center center;
+  --cover: cover;
+  --contain: contain;
+
+  // Displays
+  --flex: flex;
+  --column: column;
+  --row: row;
+  --center: center;
+  --space-between: space-between;
+
+  --grid: grid;
+  --reponsive-grid-1col: repeat(auto-fit, minmax(19rem, 1fr));
+  --reponsive-grid-2col: repeat(auto-fit, minmax(14rem, 1fr));
+
+  // No Value
+  --none: none;
+}

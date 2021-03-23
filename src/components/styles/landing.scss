@@ -1,0 +1,127 @@
+.landing-hero-container {
+  background: var(--Bg-overlay),
+    url("../../images/hero_image.jpg") var(--no-repeat) var(--center-X-Y) /
+      var(--cover);
+  height: 90vh;
+
+  display: var(--grid);
+  grid-template-columns: var(--reponsive-grid-2col);
+
+  overflow: hidden;
+
+  .text-wrapper {
+    display: var(--flex);
+    flex-direction: var(--column);
+  }
+
+  .content-wrapper {
+    max-width: 1115px;
+    padding: 10% 0 0 0;
+    display: var(--grid);
+    grid-template-columns: var(--reponsive-grid-2col);
+
+    overflow: hidden;
+
+    margin: auto;
+
+    color: var(--WhiteOpacity90_Neutrals);
+  }
+
+  .hero-mockup-container {
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+
+    & img {
+      width: 450px;
+    }
+  }
+}
+
+.testimonial-container {
+  background: rgba(127, 90, 240, 0.8);
+  color: var(--WhiteOpacity90_Neutrals);
+  height: 100%;
+  padding: 5% 0 10% 0;
+  margin-top: 5em;
+
+  display: flex;
+  align-items: center;
+  flex-direction: var(--column);
+
+  .testimonial-inner-container {
+    width: 100%;
+    background: var(--WhiteOpacity90_Neutrals);
+    color: var(--NoonDark2_Neutrals);
+    padding: 10px 15px;
+
+    border-radius: 15px;
+
+    .testimonial-text-container {
+      & strong {
+        color: var(--Purple1_Secondary);
+      }
+    }
+  }
+
+  .testimonial-image {
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+
+    & img {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      border-radius: 25%;
+    }
+  }
+
+  .testimonial-wrapper {
+    display: grid;
+    grid-template-columns: var(--reponsive-grid-1col);
+    grid-column-gap: 2em;
+
+    max-width: 1115px;
+    margin: auto;
+  }
+
+  .testimonial-header {
+    display: var(--flex);
+    align-items: var(--center);
+    flex-direction: var(--column);
+    padding-bottom: 5%;
+  }
+}
+
+.downloads-container {
+  background: var(--Purple1_Secondary);
+  color: var(--WhiteOpacity90_Neutrals);
+  height: 100%;
+  padding: 10% 0 10% 0;
+
+  display: flex;
+  align-items: var(--center);
+  flex-direction: var(--column);
+
+  .growth-number-container {
+    display: flex;
+    align-items: var(--center);
+  }
+}
+
+.downloads-aside {
+  background: var(--WhiteOpacity90_Neutrals);
+  color: var(--NoonDark2_Neutrals);
+
+  padding: 20px 10px;
+  width: 300px;
+  margin: 0 10px;
+
+  text-align: var(--center);
+  border-radius: 15px;
+
+  & h2 {
+    color: var(--Purple1_Secondary);
+  }
+}

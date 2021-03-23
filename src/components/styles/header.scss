@@ -1,0 +1,68 @@
+@import "../../styles/theme";
+
+.button-container {
+  & a {
+    text-decoration: none;
+  }
+}
+
+.button-wrapper {
+  background: var(--Purple1_Secondary);
+  position: relative;
+  border-radius: 10px;
+  cursor: pointer;
+  list-style: none;
+
+  padding: 10px 15px;
+
+  & span {
+    color: #fff;
+  }
+}
+
+.ambassador {
+  background: var(--Green_Accent);
+  & span {
+    color: var(--NoonDark1_Neutrals);
+  }
+}
+
+.button-container .dropdown {
+  background: var(--Purple1_Secondary);
+  border-radius: 10px;
+  visibility: hidden;
+  opacity: 0.4;
+  height: auto;
+  width: 100%;
+  position: absolute;
+  transition: all 0.5s ease;
+  left: 0;
+  display: none;
+}
+
+.button-container .button-wrapper:hover > .dropdown,
+.button-container .button-wrapper .dropdown:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+.dropdown {
+  height: auto;
+  padding: 1em 0 1em 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  list-style: none;
+}
+
+.read-blog-link {
+  display: var(--flex);
+  align-items: var(--center);
+  color: var(--WhiteOpacity90_Neutrals);
+}

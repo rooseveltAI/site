@@ -1,0 +1,24 @@
+// .faq-header {
+//   background: var(--Bg-overlay);
+//   height: 40vh;
+
+//   //   max-width: 960px;
+//   padding: 10% 0 0 0;
+//   display: var(--flex);
+//   flex-direction: var(--column);
+//   align-items: center;
+//   margin: auto;
+
+//   color: var(--WhiteOpacity90_Neutrals);
+// }
+
+// .faq-body-container {
+//   width: 100%;
+//   max-width: 960px;
+//   margin: 5em auto;
+// }
+
+.faq_image {
+  background: var(--Bg-overlay),
+    url("../images/faq_image.jpg") var(--no-repeat) top / var(--cover);
+}

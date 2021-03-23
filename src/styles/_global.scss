@@ -1,0 +1,22 @@
+.page-headers {
+  color: var(--WhiteOpacity90_Neutrals);
+
+  height: 45vh;
+
+  //   max-width: 960px;
+  padding: 10% 0 0 0;
+  display: var(--flex);
+  flex-direction: var(--column);
+  align-items: center;
+  margin: auto;
+}
+
+.pages-body-container {
+  width: 100%;
+  max-width: 960px;
+  margin: 5em auto;
+
+  & a {
+    color: var(--Purple1_Secondary);
+  }
+}
