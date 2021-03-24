@@ -10,6 +10,8 @@
 
 # production
 /build
+.history
+.cache
 
 # misc
 .DS_Store
