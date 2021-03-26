@@ -18,6 +18,7 @@ import christina from "../images/christina.png"
 import anne from "../images/anne.png"
 
 import "./styles/landing.scss"
+import Container from "./styled-components/container"
 
 // import { Link } from "gatsby"
 
