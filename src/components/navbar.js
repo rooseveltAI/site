@@ -7,14 +7,6 @@ import PropTypes from "prop-types"
 import StyledBlackBackground from "./styled-components/dark-background"
 import Button from "./styled-components/button"
 
-const StyledNavbar = styled.nav`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.5rem 0;
-  flex-wrap: wrap;
-`
-
 const Navbar = ({ siteTitle }) => {
   return (
     <StyledBlackBackground>
@@ -40,3 +32,11 @@ Navbar.defaultProps = {
 }
 
 export default Navbar
+
+const StyledNavbar = styled.nav`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  flex-wrap: wrap;
+`

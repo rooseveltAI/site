@@ -10,11 +10,13 @@ import "../styles/_global.scss"
 import Navbar from "../components/navbar"
 import Banner from "../components/Banner"
 import ProgramSection from "../components/program-section"
+import ProductSection from "../components/product-section"
 
 const IndexPage = () => (
   <AppLayout>
     <Banner />
     <ProgramSection />
+    <ProductSection />
   </AppLayout>
 
   // <Layout>

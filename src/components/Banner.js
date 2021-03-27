@@ -5,6 +5,32 @@ import Container from "./styled-components/container"
 import team from "../images/amb.png"
 import Button from "./styled-components/button"
 
+const Banner = () => {
+  return (
+    <StyledBlackBackground>
+      <Container>
+        <StyledBanner>
+          <div className="wrapper">
+            <Caption color="#7EDBC4">Make an Impact</Caption>
+            <Caption>and connect with other Teens.</Caption>
+            <p>
+              Join our Ambassador program and help us build a social platform
+              that brings marginalized teens together
+            </p>
+            <div className="buttons">
+              <Button secondary={true}>Learn more</Button>
+              <Button>Become an Ampassador</Button>
+            </div>
+          </div>
+          <TeamImage src={team} alt="webelong-team" />
+        </StyledBanner>
+      </Container>
+    </StyledBlackBackground>
+  )
+}
+
+export default Banner
+
 const Caption = styled.h1`
   color: ${props => props.color ?? "white"};
   font-size: ${props => props.fontSize ?? "1.8rem"};
@@ -43,29 +69,3 @@ const TeamImage = styled("img")`
     display: inline;
   }
 `
-
-const Banner = () => {
-  return (
-    <StyledBlackBackground>
-      <Container>
-        <StyledBanner>
-          <div className="wrapper">
-            <Caption color="#7EDBC4">Make an Impact</Caption>
-            <Caption>and connect with other Teens.</Caption>
-            <p>
-              Join our Ambassador program and help us build a social platform
-              that brings marginalized teens together
-            </p>
-            <div className="buttons">
-              <Button secondary={true}>Learn more</Button>
-              <Button>Become an Ampassador</Button>
-            </div>
-          </div>
-          <TeamImage src={team} alt="webelong-team" />
-        </StyledBanner>
-      </Container>
-    </StyledBlackBackground>
-  )
-}
-
-export default Banner
