@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import AppStore from "../images/app_store.svg"
 import PlayStore from "../images/google_play_store.svg"
+import "./styles/footer.scss"
 
 const Footer = () => {
   return (

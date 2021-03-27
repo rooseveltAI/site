@@ -10,7 +10,10 @@ import "../styles/_global.scss"
 import Banner from "../components/styled-components/Banner"
 import ProgramSection from "../components/styled-components/program-section"
 import ProductSection from "../components/styled-components/product-section"
-import Feature from "../components/features"
+import Feature from "../components/styled-components/features"
+import WhyJoin from "../components/styled-components/why-join"
+import StyledFaq from "../components/styled-components/styled-faq"
+import Footer from "../components/footer"
 
 const IndexPage = () => (
   <AppLayout>
@@ -18,6 +21,9 @@ const IndexPage = () => (
     <ProgramSection />
     <Feature />
     <ProductSection />
+    <WhyJoin />
+    <StyledFaq />
+    <Footer />
   </AppLayout>
 
   // <Layout>

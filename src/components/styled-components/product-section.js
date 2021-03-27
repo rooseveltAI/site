@@ -5,44 +5,6 @@ import thread from "../../images/thread.png"
 import wB2 from "../../images/wB2.png"
 import styled from "@emotion/styled"
 
-const StyledImage = styled.img`
-  width: 100%;
-  height: auto;
-  max-width: 320px;
-  margin: auto;
-`
-
-const StyledProductSection = styled.div`
-  padding: 3rem 0;
-  .image-box {
-    display: flex;
-  }
-  .box {
-    margin-top: 2.5rem;
-
-    width: 100%;
-    p {
-      margin-top: 1.2rem;
-      margin-bottom: 1rem;
-    }
-  }
-
-  @media (min-width: 720px) {
-    .box {
-      margin-top: 0;
-      width: 50%;
-    }
-  }
-`
-const Heading = styled.h4`
-  color: ${props => props.color ?? "black"};
-  font-size: 1.3rem;
-`
-
-const Spacer = styled.div`
-  margin-top: ${props => props.size ?? "10px"};
-`
-
 const ProductSection = () => {
   return (
     <StyledProductSection>
@@ -102,3 +64,41 @@ const ProductSection = () => {
 }
 
 export default ProductSection
+
+const StyledImage = styled.img`
+  width: 100%;
+  height: auto;
+  max-width: 320px;
+  margin: auto;
+`
+
+const StyledProductSection = styled.div`
+  padding: 3rem 0;
+  .image-box {
+    display: flex;
+  }
+  .box {
+    margin-top: 2.5rem;
+
+    width: 100%;
+    p {
+      margin-top: 1.2rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  @media (min-width: 720px) {
+    .box {
+      margin-top: 0;
+      width: 50%;
+    }
+  }
+`
+const Heading = styled.h4`
+  color: ${props => props.color ?? "black"};
+  font-size: 1.3rem;
+`
+
+const Spacer = styled.div`
+  margin-top: ${props => props.size ?? "10px"};
+`

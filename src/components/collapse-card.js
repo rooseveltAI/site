@@ -6,7 +6,7 @@ import "./styles/collapse.scss"
 
 export default class CollapsibleCard extends React.Component {
   state = {
-    collapsed: false,
+    collapsed: true,
   }
 
   toggleCollapse = () => {

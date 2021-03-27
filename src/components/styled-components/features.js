@@ -1,12 +1,12 @@
 import React from "react"
 import styled from "@emotion/styled"
-import StyledBlackBackground from "./styled-components/dark-background"
-import Container from "./styled-components/container"
-import cnet from "../images/website/cnet.png"
-import forbes from "../images/website/forbes.png"
-import sr from "../images/website/sr.png"
-import techcrunch from "../images/website/techcrunch.png"
-import yahoo from "../images/website/techcrunch.png"
+import StyledBlackBackground from "./dark-background"
+import Container from "./container"
+import cnet from "../../images/website/cnet.png"
+import forbes from "../../images/website/forbes.png"
+import sr from "../../images/website/sr.png"
+import techcrunch from "../../images/website/techcrunch.png"
+import yahoo from "../../images/website/yahoo.png"
 
 const Heading = styled.h3`
   color: #cbcee5;

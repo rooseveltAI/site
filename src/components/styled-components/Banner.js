@@ -49,7 +49,6 @@ const StyledBanner = styled.div`
   p {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    font-size: 14px;
     color: #cbcee5;
   }
 

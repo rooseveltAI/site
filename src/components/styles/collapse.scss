@@ -1,15 +1,17 @@
 .collapsible-card {
-  margin: 25px 0px;
+  margin: 2rem 0px;
+  color: #cbcee5;
+  background: rgb(203, 206, 229, 0.2);
+  border-radius: 10px;
 
   .drop--down__container {
     display: flex;
     align-items: center;
     height: auto;
     justify-content: center;
-    background: rgba(127, 90, 240, 0.1);
-    border-radius: 5px;
+
     padding: 10px 15px;
-    margin-bottom: 1em;
+
     cursor: pointer;
   }
 
@@ -20,22 +22,18 @@
     justify-content: space-between;
     align-items: center;
     margin: auto;
-
-    h3 {
-      font-size: 18px;
-
-      // @include for-big-desktop-up {
-      //   font-size: 24px;
-      // }
-    }
   }
 
   .body {
     padding: 0 1em 1em 1em;
     line-height: 2;
-
+    background: #000000;
     &.collapsed {
       display: none;
+    }
+    p {
+      padding-top: 1em;
+      padding-bottom: 1.5em;
     }
   }
 }

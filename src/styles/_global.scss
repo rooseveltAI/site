@@ -1,27 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap");
 
-.page-headers {
-  color: var(--WhiteOpacity90_Neutrals);
+// .page-headers {
+//   color: var(--WhiteOpacity90_Neutrals);
 
-  height: 45vh;
+//   height: 45vh;
 
-  //   max-width: 960px;
-  padding: 10% 0 0 0;
-  display: var(--flex);
-  flex-direction: var(--column);
-  align-items: center;
-  margin: auto;
-}
+//   //   max-width: 960px;
+//   padding: 10% 0 0 0;
+//   display: var(--flex);
+//   flex-direction: var(--column);
+//   align-items: center;
+//   margin: auto;
+// }
 
-.pages-body-container {
-  width: 100%;
-  max-width: 960px;
-  margin: 5em auto;
+// .pages-body-container {
+//   width: 100%;
+//   max-width: 960px;
+//   margin: 5em auto;
 
-  & a {
-    color: var(--Purple1_Secondary);
-  }
-}
+//   & a {
+//     color: var(--Purple1_Secondary);
+//   }
+// }
 
 * {
   padding: 0;
@@ -29,4 +29,25 @@
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  font-size: 14px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+@media (min-width: 720px) {
+  h3 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 16px;
+  }
 }
