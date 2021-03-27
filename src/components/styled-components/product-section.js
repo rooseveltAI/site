@@ -1,8 +1,8 @@
 import React from "react"
 import FlexContainer from "./flex-container"
-import Container from "./styled-components/container"
-import thread from "../images/thread.png"
-import wB2 from "../images/wB2.png"
+import Container from "./container"
+import thread from "../../images/thread.png"
+import wB2 from "../../images/wB2.png"
 import styled from "@emotion/styled"
 
 const StyledImage = styled.img`

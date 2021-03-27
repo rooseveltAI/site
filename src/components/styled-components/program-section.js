@@ -1,8 +1,8 @@
 import React from "react"
 import styled from "@emotion/styled"
-import Container from "./styled-components/container"
-import teens from "../images/teens.png"
-import Button from "./styled-components/button"
+import Container from "./container"
+import teens from "../../images/teens.png"
+import Button from "./button"
 
 const StyledBackgroundImage = styled.div`
   min-height: 50vh;

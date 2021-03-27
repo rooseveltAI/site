@@ -12,10 +12,10 @@ import "@fontsource/open-sans"
 import "@fontsource/open-sans/800.css"
 import "@fontsource/nunito"
 
-import Logo from "../images/assets/webelonglogo.svg"
-import FBIcon from "../images/assets/fb.svg"
-import TWIcon from "../images/assets/tw.svg"
-import IGIcon from "../images/assets/ig.svg"
+// import Logo from "../images/assets/webelonglogo.svg"
+// import FBIcon from "../images/assets/fb.svg"
+// import TWIcon from "../images/assets/tw.svg"
+// import IGIcon from "../images/assets/ig.svg"
 import Navbar from "./navbar"
 
 const AppLayout = ({ children }) => {

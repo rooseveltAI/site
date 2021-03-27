@@ -1,11 +1,11 @@
 import * as React from "react"
 import styled from "@emotion/styled"
-import Container from "./styled-components/container"
-import Logo from "../images/assets/webelonglogo.svg"
+import Container from "./container"
+import Logo from "../../images/assets/webelonglogo.svg"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import StyledBlackBackground from "./styled-components/dark-background"
-import Button from "./styled-components/button"
+import StyledBlackBackground from "./dark-background"
+import Button from "./button"
 
 const Navbar = ({ siteTitle }) => {
   return (

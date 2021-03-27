@@ -1,5 +1,5 @@
 import * as React from "react"
-import AppLayout from "../components/app-layout"
+import AppLayout from "../components/styled-components/app-layout"
 // import { Link } from "gatsby"
 
 // import Layout from "../components/layout"
@@ -7,9 +7,9 @@ import AppLayout from "../components/app-layout"
 // import Landing from "../components/landing"
 
 import "../styles/_global.scss"
-import Banner from "../components/Banner"
-import ProgramSection from "../components/program-section"
-import ProductSection from "../components/product-section"
+import Banner from "../components/styled-components/Banner"
+import ProgramSection from "../components/styled-components/program-section"
+import ProductSection from "../components/styled-components/product-section"
 import Feature from "../components/features"
 
 const IndexPage = () => (

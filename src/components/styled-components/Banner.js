@@ -1,9 +1,9 @@
 import React from "react"
 import styled from "@emotion/styled"
-import StyledBlackBackground from "./styled-components/dark-background"
-import Container from "./styled-components/container"
-import team from "../images/amb.png"
-import Button from "./styled-components/button"
+import StyledBlackBackground from "./dark-background"
+import Container from "./container"
+import team from "../../images/amb.png"
+import Button from "./button"
 
 const Banner = () => {
   return (
