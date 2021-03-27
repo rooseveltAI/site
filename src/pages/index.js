@@ -7,15 +7,16 @@ import AppLayout from "../components/app-layout"
 // import Landing from "../components/landing"
 
 import "../styles/_global.scss"
-import Navbar from "../components/navbar"
 import Banner from "../components/Banner"
 import ProgramSection from "../components/program-section"
 import ProductSection from "../components/product-section"
+import Feature from "../components/features"
 
 const IndexPage = () => (
   <AppLayout>
     <Banner />
     <ProgramSection />
+    <Feature />
     <ProductSection />
   </AppLayout>
 
