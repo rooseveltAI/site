@@ -10,7 +10,7 @@ import thread from "../images/thread.png"
 import community from "../images/wB2.png"
 import Join from "../images/joinwB.png"
 
-import Footer from "../components/footer"
+import Footer from "../components/styled-components/footer"
 
 import FBIcon from "../images/assets/fb.svg"
 import TWIcon from "../images/assets/tw.svg"

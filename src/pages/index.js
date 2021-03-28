@@ -13,7 +13,7 @@ import ProductSection from "../components/styled-components/product-section"
 import Feature from "../components/styled-components/features"
 import WhyJoin from "../components/styled-components/why-join"
 import StyledFaq from "../components/styled-components/styled-faq"
-import Footer from "../components/footer"
+import Footer from "../components/styled-components/footer"
 
 const IndexPage = () => (
   <AppLayout>
