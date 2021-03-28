@@ -5,26 +5,11 @@ import CollapsibleCard from "../collapse-card"
 import StyledBlackBackground from "./dark-background"
 import { Link } from "gatsby"
 
-const Wrapper = styled.div`
-  padding: 5rem 0;
-  a {
-    color: #9d7dff;
-    text-decoration: none;
-  }
-`
-
-const Heading = styled.h4`
-  color: ${props => props.color ?? "black"};
-  font-size: 2rem;
-  text-align: center;
-  margin-bottom: 2em;
-`
-
 const StyledFaq = () => {
   return (
     <StyledBlackBackground>
       <Wrapper>
-        <Container>
+        <Container space={true}>
           <Heading color="#CBCEE5">FAQ for weBelong Ambassador</Heading>
           <CollapsibleCard title="Q: How can I apply for Ambassador Program?">
             <p>
@@ -60,3 +45,18 @@ const StyledFaq = () => {
 }
 
 export default StyledFaq
+
+const Wrapper = styled.div`
+  padding: 5rem 0;
+  a {
+    color: #9d7dff;
+    text-decoration: none;
+  }
+`
+
+const Heading = styled.h4`
+  color: ${props => props.color ?? "black"};
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2em;
+`

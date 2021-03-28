@@ -8,13 +8,14 @@ import styled from "@emotion/styled"
 const ProductSection = () => {
   return (
     <StyledProductSection>
-      <Container>
+      <Container space={true}>
         <FlexContainer justify="space-between">
           <div className="image-box">
+            <Spacer size="2em" />
             <StyledImage src={thread} alt="thread" />
           </div>
-
           <div className="box">
+            <Spacer size="2em" />
             <Heading color="#7F5AF0">Calling all the content creators</Heading>
             <Heading>Calling all the thought leaders</Heading>
             <p>Have a passion you want to share?</p>
@@ -34,9 +35,11 @@ const ProductSection = () => {
             </p>
           </div>
         </FlexContainer>
-
+      </Container>
+      <Container space={true}>
         <FlexContainer justify="space-between">
           <div className="box">
+            <Spacer size="2em" />
             <Heading color="#7F5AF0">Social media, but evolved</Heading>
             <p>A place to support and help each other.</p>
             <p>
@@ -52,9 +55,9 @@ const ProductSection = () => {
               So that you can focus on what matters -building meaningful
               connections.
             </p>
-            <Spacer size="2rem" />
           </div>
           <div className="image-box">
+            <Spacer size="2em" />
             <StyledImage src={wB2} alt="thread" />
           </div>
         </FlexContainer>
@@ -73,13 +76,10 @@ const StyledImage = styled.img`
 `
 
 const StyledProductSection = styled.div`
-  padding: 3rem 0;
   .image-box {
     display: flex;
   }
   .box {
-    margin-top: 2.5rem;
-
     width: 100%;
     p {
       margin-top: 1.2rem;

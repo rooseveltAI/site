@@ -4,68 +4,11 @@ import Container from "./container"
 import teens from "../../images/teens.png"
 import Button from "./button"
 
-const StyledBackgroundImage = styled.div`
-  min-height: 50vh;
-  background: url(${teens}) no-repeat;
-  background-size: cover;
-  object-position: bottom;
-
-  .overlay {
-    background: rgba(3, 3, 3, 0.8);
-  }
-`
-const Title = styled.h2`
-  font-size: 1.5em;
-  color: white;
-  span {
-    color: #9d7dff;
-  }
-
-  @media (min-width: 740px) {
-    font-size: 2.5em;
-    text-align: center;
-  }
-`
-
-const StyledProgram = styled.div`
-  display: flex;
-  padding: 3rem 0;
-  .wrapper {
-    width: 100%;
-  }
-
-  .light-wrapper {
-    padding: 5px;
-    background: #fbd7ff14;
-    border-radius: 10px;
-
-    margin: 2rem auto;
-    p {
-      padding: 1rem;
-      color: white;
-    }
-  }
-
-  @media (min-width: 740px) {
-    .wrapper {
-      margin: 0 auto;
-      max-width: 800px;
-      .buttons {
-        text-align: center;
-      }
-    }
-    .light-wrapper {
-      padding: 15px;
-      width: 80%;
-    }
-  }
-`
-
 const ProgramSection = () => {
   return (
     <StyledBackgroundImage>
       <div className="overlay">
-        <Container>
+        <Container space={true}>
           <StyledProgram>
             <div className="wrapper">
               <Title>
@@ -100,3 +43,59 @@ const ProgramSection = () => {
 }
 
 export default ProgramSection
+
+const StyledBackgroundImage = styled.div`
+  min-height: 50vh;
+  background: url(${teens}) no-repeat;
+  background-size: cover;
+  object-position: bottom;
+
+  .overlay {
+    background: rgba(3, 3, 3, 0.8);
+  }
+`
+const Title = styled.h2`
+  font-size: 1.5em;
+  color: white;
+  span {
+    color: #9d7dff;
+  }
+
+  @media (min-width: 740px) {
+    font-size: 2.5em;
+    text-align: center;
+  }
+`
+
+const StyledProgram = styled.div`
+  display: flex;
+  .wrapper {
+    width: 100%;
+  }
+
+  .light-wrapper {
+    padding: 5px;
+    background: #fbd7ff14;
+    border-radius: 10px;
+
+    margin: 2rem auto;
+    p {
+      padding: 1rem;
+      color: white;
+    }
+  }
+
+  @media (min-width: 740px) {
+    .wrapper {
+      margin: 0 auto;
+      max-width: 800px;
+      .buttons {
+        text-align: center;
+      }
+    }
+    .light-wrapper {
+      padding: 15px;
+      width: 80%;
+    }
+  }
+`

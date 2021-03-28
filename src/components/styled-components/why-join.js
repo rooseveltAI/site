@@ -6,43 +6,11 @@ import StyledBlackBackground from "./dark-background"
 import { Check } from "react-feather"
 import joinwB from "../../images/joinwB.png"
 
-const TeamImage = styled("img")`
-  width: 100%;
-  height: auto;
-  max-width: 560px;
-
-  @media (min-width: 720px) {
-    display: inline;
-  }
-`
-
-const TitleNText = styled.div`
-  max-width: 320px;
-  margin-bottom: 1.5rem;
-  div {
-    display: flex;
-    align-items: center;
-    color: ${props => props.color ?? "white"};
-    margin-bottom: 1.5rem;
-    h3 {
-      margin-left: 10px;
-    }
-  }
-
-  p {
-    color: #cbcee5;
-  }
-`
-
-const Wrapper = styled.div`
-  padding: 3rem 0;
-`
-
 const WhyJoin = () => {
   return (
     <StyledBlackBackground bgcolor="#1F2128">
       <Wrapper>
-        <Container>
+        <Container space={true}>
           <FlexContainer alignItems="center">
             <div>
               <TitleNText color="#7EDBC4">
@@ -85,3 +53,35 @@ const WhyJoin = () => {
 }
 
 export default WhyJoin
+
+const TeamImage = styled("img")`
+  width: 100%;
+  height: auto;
+  max-width: 560px;
+
+  @media (min-width: 720px) {
+    display: inline;
+  }
+`
+
+const TitleNText = styled.div`
+  max-width: 320px;
+  margin-bottom: 1.5rem;
+  div {
+    display: flex;
+    align-items: center;
+    color: ${props => props.color ?? "white"};
+    margin-bottom: 1.5rem;
+    h3 {
+      margin-left: 10px;
+    }
+  }
+
+  p {
+    color: #cbcee5;
+  }
+`
+
+const Wrapper = styled.div`
+  padding: 3rem 0;
+`
