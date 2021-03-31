@@ -38,6 +38,17 @@
   }
 }
 
+.landing-color1 {
+  background: var(--Green_Accent);
+}
+.landing-color2 {
+  background: var(--Purple1_Secondary);
+  color: var(--WhiteOpacity90_Neutrals);
+}
+.landing-color3 {
+  background: var(--Peach1_Primary);
+}
+
 .testimonial-container {
   background: rgba(127, 90, 240, 0.8);
   color: var(--WhiteOpacity90_Neutrals);
