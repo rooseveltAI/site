@@ -12,4 +12,10 @@
   background: var(--Bg-overlay),
     url("../images/terms_image.jpg") var(--no-repeat) var(--center-X-Y) /
       var(--cover);
+
+  div {
+    width: max-content;
+    margin: auto;
+    text-align: center;
+  }
 }

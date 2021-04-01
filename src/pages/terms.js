@@ -9,8 +9,10 @@ const Terms = () => (
     <SEO title="Terms of use" />
 
     <div className="page-headers terms_image">
-      <p>weBelong</p>
-      <h2>Terms of Use</h2>
+      <div>
+        <p>weBelong</p>
+        <h2>Terms of Use</h2>
+      </div>
     </div>
 
     <div className="pages-body-container">
