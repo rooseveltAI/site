@@ -2,6 +2,10 @@
   background: var(--Bg-overlay),
     url("../images/blog_image.jpg") var(--no-repeat) var(--center-X-Y) /
       var(--cover);
+
+  h1 {
+    margin: auto;
+  }
 }
 
 .author-wrapper {
@@ -23,7 +27,8 @@
   align-items: center;
   width: 100%;
   max-width: 960px;
-  margin: 2em auto;
+  margin: 0 auto;
+  padding: 2em 15px;
 }
 
 // Single blog post
@@ -32,5 +37,5 @@
   width: 100%;
   max-width: 960px;
   margin: auto;
-  padding-top: 10em;
+  padding: 6em 15px;
 }
