@@ -119,7 +119,7 @@ const Landing = () => (
         Talk about anything, anytime you want, and feel better. 24/7.
         judgment-free
       </p>
-      <div>
+      <div className="download-links">
         <a
           href="https://apps.apple.com/us/app/leavoice-voice-messenger/id1470220391"
           target="_blank"

@@ -45,12 +45,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `2rem`,
-          }}
-          className="footer-container"
-        >
+        <footer className="footer-container">
           <Footer />
           <div className="footer-line" />
           <section className="footer-credits-wrapper">
