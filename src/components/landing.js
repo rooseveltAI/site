@@ -49,7 +49,7 @@ const Landing = () => (
       </div>
     </div>
 
-    <section>
+    <section className="landing-color1">
       <LeftAside
         img={wB1}
         // alt="hey"
@@ -58,7 +58,9 @@ const Landing = () => (
         Appstore={AppStore}
         Playstore={PlayStore}
       />
+    </section>
 
+    <section className="landing-color2">
       <RightAside
         img={wB3}
         // alt="hey"
@@ -67,7 +69,9 @@ const Landing = () => (
         Appstore={AppStore}
         Playstore={PlayStore}
       />
+    </section>
 
+    <section className="landing-color3">
       <LeftAside
         img={wB4}
         // alt="hey"
