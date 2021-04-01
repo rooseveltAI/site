@@ -1,4 +1,5 @@
 .landing-hero-container {
+  padding: 0 15px;
   background: var(--Bg-overlay),
     url("../../images/hero_image.jpg") var(--no-repeat) var(--center-X-Y) /
       var(--cover);
@@ -39,13 +40,16 @@
 }
 
 .landing-color1 {
+  padding: 0 15px;
   background: var(--Green_Accent);
 }
 .landing-color2 {
+  padding: 0 15px;
   background: var(--Purple1_Secondary);
   color: var(--WhiteOpacity90_Neutrals);
 }
 .landing-color3 {
+  padding: 0 15px;
   background: var(--Peach1_Primary);
 }
 
@@ -54,7 +58,7 @@
   color: var(--WhiteOpacity90_Neutrals);
   height: 100%;
   padding: 5% 0 10% 0;
-  margin-top: 5em;
+  // margin-top: 5em;
 
   display: flex;
   align-items: center;
@@ -175,4 +179,8 @@
     margin: 0.3rem 0.9rem;
     max-width: 400px;
   }
+}
+
+.download-buttons {
+  display: flex;
 }

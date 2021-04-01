@@ -14,7 +14,7 @@ export default function LeftAside(props) {
         <h3>{props.leftTitle}</h3>
         <p>{props.leftDesc}</p>
         {/* <CtaButton /> */}
-        <div>
+        <div className="download-buttons">
           <a
             href="https://apps.apple.com/us/app/leavoice-voice-messenger/id1470220391"
             target="_blank"

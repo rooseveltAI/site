@@ -10,7 +10,7 @@ export default function RightAside(props) {
         <h3>{props.rightTitle}</h3>
         <p>{props.rightDesc}</p>
         {/* <CtaButton /> */}
-        <div>
+        <div className="download-buttons">
           <a
             href="https://apps.apple.com/us/app/leavoice-voice-messenger/id1470220391"
             target="_blank"

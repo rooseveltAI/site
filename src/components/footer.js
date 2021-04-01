@@ -48,9 +48,9 @@ const Footer = () => {
         </div>
       </ul>
 
-      <ul className="right-aside-ul">
+      <ul className="right-aside-ul ">
         <h4>Get the app</h4>
-        <div>
+        <div className="download-buttons">
           <a
             href="https://apps.apple.com/us/app/leavoice-voice-messenger/id1470220391"
             target="_blank"
