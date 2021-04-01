@@ -12,20 +12,22 @@ const Header = ({ siteTitle }) => {
   return (
     <header>
       <div className="header">
-        <h1 style={{ margin: 0 }}>
-          <Link
-            to="/"
-            style={{
-              color: `white`,
-              textDecoration: `none`,
-            }}
-          >
-            <Logo />
-          </Link>
-        </h1>
-        <button className="menu" onClick={() => setShowMenu(prev => !prev)}>
-          <Menu />
-        </button>
+        <div className="logoNmenu">
+          <h1 style={{ margin: 0 }}>
+            <Link
+              to="/"
+              style={{
+                color: `white`,
+                textDecoration: `none`,
+              }}
+            >
+              <Logo />
+            </Link>
+          </h1>
+          <button className="menu" onClick={() => setShowMenu(prev => !prev)}>
+            <Menu />
+          </button>
+        </div>
         <div className={`nav ${showMenu && "show"}`}>
           <Link to="/blog">
             <p className="read-blog-link">
