@@ -2,6 +2,10 @@
   background: var(--Bg-overlay),
     url("../images/privacy_image.jpg") var(--no-repeat) var(--center-X-Y) /
       var(--cover);
+
+  h3 {
+    margin: auto;
+  }
 }
 
 .terms_image {
