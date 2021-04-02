@@ -54,6 +54,10 @@ const Wrapper = styled.div`
     color: #9d7dff;
     text-decoration: none;
   }
+
+  @media (max-width: 768px) {
+    padding: 2rem 0;
+  }
 `
 
 const Heading = styled.h4`
@@ -61,4 +65,8 @@ const Heading = styled.h4`
   font-size: 2rem;
   text-align: center;
   margin-bottom: 2em;
+
+  @media (max-width: 768px) {
+    font-size: 28px;
+  }
 `

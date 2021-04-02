@@ -6,7 +6,7 @@ import "./styles/aside.scss"
 export default function RightAside(props) {
   return (
     <div className="right-aside-container">
-      <div>
+      <div className="wrap">
         <h3>{props.rightTitle}</h3>
         <p>{props.rightDesc}</p>
         {/* <CtaButton /> */}

@@ -15,9 +15,11 @@
   display: var(--grid);
   grid-template-columns: var(--reponsive-grid-2col);
   align-items: flex-start;
-
   margin: auto;
 
+  @include for-phone-only {
+    padding: 2% 15px;
+  }
   .aside-text-content {
     & .amb-h1 {
       font-size: 48px;
@@ -38,6 +40,7 @@
         font-size: 24px;
         word-wrap: normal;
         width: 100%;
+        padding-top: 1%;
       }
     }
   }
