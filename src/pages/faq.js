@@ -12,8 +12,10 @@ const Faq = () => (
     <SEO title="Frequently asked questions" />
 
     <div className="page-headers faq_image">
-      <h2>FAQ</h2>
-      <p>Frequently Asked Questions on weBelong</p>
+      <div>
+        <h2>FAQ</h2>
+        <p>Frequently Asked Questions on weBelong</p>
+      </div>
     </div>
 
     <div className="pages-body-container">
@@ -35,7 +37,6 @@ const Faq = () => (
         <CollapsibleCard title="How does weBelong app work?">
           <div>
             <p>
-              {" "}
               weBelong is a social platform where you can find people to talk
               depending on your common interests. On weBelong, you can create
               public or private chat groups, meet new people and chat in a safe

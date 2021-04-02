@@ -18,7 +18,7 @@ export default class CollapsibleCard extends React.Component {
 
     return (
       <div className="collapsible-card">
-        <header className="drop--down__container">
+        <div className="drop--down__container">
           <div onClick={this.toggleCollapse} className="title-and-toggle">
             <h3>{this.props.title}</h3>
             {this.state.collapsed ? (
@@ -27,7 +27,7 @@ export default class CollapsibleCard extends React.Component {
               <ChevronUp onClick={this.toggleCollapse} className="icon" />
             )}
           </div>
-        </header>
+        </div>
 
         <div className={classnames("body", { collapsed })}>
           {this.props.children}

@@ -5,6 +5,8 @@
   "version": "0.1.0",
   "author": "Holoash",
   "dependencies": {
+    "@emotion/react": "^11.1.5",
+    "@emotion/styled": "^11.1.5",
     "@fontsource/nunito": "^4.2.2",
     "@fontsource/open-sans": "^4.2.2",
     "classnames": "^2.2.6",

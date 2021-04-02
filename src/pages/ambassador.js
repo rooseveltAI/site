@@ -20,11 +20,25 @@ import CollapsibleCard from "../components/collapse-card"
 
 // import { Link } from "gatsby"
 import "../styles/ambassador.scss"
+import Feature from "../components/styled-components/features"
+import ProductSection from "../components/styled-components/product-section"
+import Header from "../components/header"
+import WhyJoin from "../components/styled-components/why-join"
+import ProgramSection from "../components/styled-components/program-section"
+import StyledFaq from "../components/styled-components/styled-faq"
+import StyledBlackBackground from "../components/styled-components/dark-background"
+import Navbar from "../components/styled-components/navbar"
+import FlexContainer from "../components/styled-components/flex-container"
 
 const Ambassador = () => (
   <body id="ambassador-page">
     <SEO title="Ambassador" />
 
+    {/*HEADER */}
+
+    <Navbar />
+
+    {/* 
     <header
       style={{
         background: `rgba(3, 3, 6, 0.9)`,
@@ -65,32 +79,39 @@ const Ambassador = () => (
         </ul>
       </div>
     </header>
+*/}
+    <StyledBlackBackground>
+      <div className="amb-header-container">
+        <div className="aside-text-content">
+          <h1 className="amb-h1">
+            Make an Impact
+            <br />
+            <span>and connect with other Teens.</span>
+          </h1>
+          <p>
+            Join our Ambassador program and help us build a social platform that
+            brings marginalized teens together
+          </p>
+          <div className="buttons">
+            <a href="#faq">
+              <button className="button-purple-stroke">Learn more</button>
+            </a>
+            <a href="https://holoash.typeform.com/to/cHGS6d7R">
+              <button className="button-green-fill">
+                Become an Ambassador
+              </button>
+            </a>
+          </div>
+        </div>
 
-    <div className="amb-header-container">
-      <div className="aside-text-content">
-        <h1 className="amb-h1">
-          Make an Impact
-          <br />
-          <span>and connect with other Teens.</span>
-        </h1>
-        <p>
-          Join our Ambassador program and help us build a social platform that
-          brings marginalized teens together
-        </p>
-        <a href="#faq">
-          <button className="button-purple-stroke">Learn more</button>
-        </a>
-        <a href="https://holoash.typeform.com/to/cHGS6d7R">
-          <button className="button-green-fill">Become an Ambassador</button>
-        </a>
+        <div className="aside-background">
+          <img src={AmbassadorImage} alt="Ambassadors" />
+        </div>
       </div>
-
-      <div className="aside-background">
-        <img src={AmbassadorImage} alt="Ambassadors" />
-      </div>
-    </div>
+    </StyledBlackBackground>
 
     <main>
+      {/* 
       <section className="section1-container">
         <div className="sec1-content-wrapper">
           <h1 className="sec1-h1">
@@ -117,12 +138,10 @@ const Ambassador = () => (
             <button className="button-green-fill">Become an Ambassador</button>
           </a>
         </div>
-        <div className="feature-box">
-          <img src={features} alt="Featured on" />
-        </div>
       </section>
+*/}
 
-      <section className="section2-container">
+      {/* <section className="section2-container">
         <div className="left-aside-container">
           <div className="img-container">
             <img src={thread} alt="Thread screen" />
@@ -177,7 +196,9 @@ const Ambassador = () => (
           </div>
         </div>
       </section>
+          */}
 
+      {/*
       <section className="section3-container">
         <h2>Why Join weBelong?</h2>
         <div className="join-wB-container">
@@ -224,6 +245,9 @@ const Ambassador = () => (
           </div>
         </div>
       </section>
+ */}
+
+      {/* 
 
       <section id="faq" className="section4-container">
         <h3>FAQ for weBelong Ambassador</h3>
@@ -284,7 +308,23 @@ const Ambassador = () => (
           </CollapsibleCard>
         </div>
       </section>
+    */}
     </main>
+
+    {/*PROGRAM */}
+    <ProgramSection />
+
+    {/*FEATURE */}
+    <Feature />
+
+    {/*PRODUCT SECTION */}
+    <ProductSection />
+
+    {/*WHY JOIN */}
+    <WhyJoin />
+
+    {/*FAQ */}
+    <StyledFaq />
 
     <footer className="footer-container">
       <Footer />

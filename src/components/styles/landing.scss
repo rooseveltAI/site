@@ -1,3 +1,5 @@
+@import "../../styles/mixins.scss";
+
 .landing-hero-container {
   padding: 0 15px;
   background: var(--Bg-overlay),
@@ -40,6 +42,15 @@
     & img {
       width: 450px;
     }
+
+    @include for-phone-only {
+    }
+  }
+  @include for-phone-only {
+    .hero-mockup-container {
+      display: none;
+    }
+    height: 65vh;
   }
 }
 
