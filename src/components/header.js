@@ -3,8 +3,8 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import GooglePlay from "../images/assets/google_play_store.svg"
 import AppStore from "../images/assets/app_store.svg"
-import Logo from "../images/assets/webelonglogo.svg"
 import { FileText, Menu } from "react-feather"
+import Logo from "../images/assets/webelonglogo.svg"
 import "./styles/header.scss"
 
 const Header = ({ siteTitle }) => {

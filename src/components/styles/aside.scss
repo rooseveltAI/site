@@ -56,12 +56,17 @@
   //   grid-template-columns: 1fr;
   //   // justify-content: center;
   // }
-  // @include for-phone-only {
-  //   // justify-content: center;
-  //   grid-template-columns: 1fr;
-  // }
 }
 
 .download-buttons {
   display: flex;
+}
+@include for-phone-only {
+  .write-up {
+    margin-top: -21rem;
+    background: #7edbc4;
+  }
+  .landing-color3 .write-up {
+    background: #fbd7ff;
+  }
 }

@@ -1,3 +1,5 @@
+@import "./mixins.scss";
+
 .privacy_image {
   background: var(--Bg-overlay),
     url("../images/privacy_image.jpg") var(--no-repeat) var(--center-X-Y) /
@@ -17,5 +19,11 @@
     width: max-content;
     margin: auto;
     text-align: center;
+  }
+}
+
+@include for-phone-only {
+  h1 {
+    font-size: 26px;
   }
 }

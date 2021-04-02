@@ -10,7 +10,7 @@ export default function LeftAside(props) {
         <img src={props.img} alt={props.alt} />
       </div>
 
-      <div>
+      <div className="write-up">
         <h3>{props.leftTitle}</h3>
         <p>{props.leftDesc}</p>
         {/* <CtaButton /> */}
