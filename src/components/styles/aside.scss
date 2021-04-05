@@ -14,20 +14,11 @@
   .img-container {
     max-width: 100%;
     height: auto;
-    // margin-left: auto;
 
     & img {
       width: 400px;
     }
   }
-  // @include for-tablet-portait-only {
-  //   grid-template-columns: 1fr;
-  //   justify-content: center;
-  // }
-  // @include for-phone-only {
-  //   justify-content: center;
-  //   grid-template-columns: 1fr;
-  // }
 }
 
 .right-aside-container {
@@ -46,16 +37,11 @@
 
     max-width: 100%;
     height: auto;
-    // margin-left: auto;
 
     & img {
       width: 400px;
     }
   }
-  // @include for-tablet-portait-only {
-  //   grid-template-columns: 1fr;
-  //   // justify-content: center;
-  // }
 }
 
 .download-buttons {

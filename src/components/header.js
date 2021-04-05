@@ -32,7 +32,7 @@ const Header = ({ siteTitle }) => {
           <Link to="/blog">
             <p className="read-blog-link">Read our blog </p>
           </Link>
-          <ul style={{ margin: 0 }} className="button-container">
+          <ul className="button-container">
             <li className="button-wrapper">
               <span>Get the weBelong app</span>
               <ul className="dropdown">

@@ -84,7 +84,6 @@
   color: var(--WhiteOpacity90_Neutrals);
   height: 100%;
   padding: 5% 0 10% 0;
-  // margin-top: 5em;
 
   display: flex;
   align-items: center;
@@ -124,19 +123,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    // grid-template-columns: var(--reponsive-grid-1col);
-    // grid-column-gap: 2em;
 
     max-width: 1115px;
     margin: auto;
   }
-  //   display: grid;
-  //   grid-template-columns: var(--reponsive-grid-1col);
-  //   grid-column-gap: 2em;
-
-  //   max-width: 1115px;
-  //   margin: auto;
-  // }
 
   .testimonial-header {
     display: var(--flex);
@@ -191,7 +181,6 @@
   padding: 20px 10px;
   max-width: 300px;
   width: 100%;
-  // margin: 0 10px;
   margin: 0.5rem;
 
   text-align: var(--center);

@@ -40,7 +40,7 @@ const Ambassador = () => (
             brings marginalized teens together
           </p>
           <div className="buttons">
-            <a href="#faq">
+            <a href="/faq">
               <button className="button-purple-stroke">Learn more</button>
             </a>
             <a href="https://holoash.typeform.com/to/cHGS6d7R">
