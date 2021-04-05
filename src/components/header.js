@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import GooglePlay from "../images/assets/google_play_store.svg"
 import AppStore from "../images/assets/app_store.svg"
-import { FileText, Menu } from "react-feather"
+import { Menu } from "react-feather"
 import Logo from "../images/assets/webelonglogo.svg"
 import "./styles/header.scss"
 
@@ -30,17 +30,7 @@ const Header = ({ siteTitle }) => {
         </div>
         <div className={`nav ${showMenu && "show"}`}>
           <Link to="/blog">
-            <p className="read-blog-link">
-              Read our blog{" "}
-              <FileText
-                style={{
-                  strokeWidth: "1",
-                  margin: "0 5px",
-                  width: "20",
-                  height: "20",
-                }}
-              />
-            </p>
+            <p className="read-blog-link">Read our blog </p>
           </Link>
           <ul style={{ margin: 0 }} className="button-container">
             <li className="button-wrapper">

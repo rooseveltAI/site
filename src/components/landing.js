@@ -19,10 +19,6 @@ import anne from "../images/anne.png"
 
 import "./styles/landing.scss"
 
-// import { Link } from "gatsby"
-
-// import "./styles/header.scss"
-
 const Landing = () => (
   <React.Fragment>
     <div className="landing-hero-container">
@@ -52,7 +48,6 @@ const Landing = () => (
     <section className="landing-color1">
       <LeftAside
         img={wB1}
-        // alt="hey"
         leftTitle="Join and create tribes based on your interests."
         leftDesc="Connect, vent off, and make friends! Talk about your problems, get advice (if you’re looking for it), and feel heard. Whether it’s #TMI Girl Talk, talking about private matters you feel shy of sharing with your friends (periods, mood shifts, boy crushes and so much more), we’ve got your back"
         Appstore={AppStore}
@@ -63,7 +58,6 @@ const Landing = () => (
     <section className="landing-color2">
       <RightAside
         img={wB3}
-        // alt="hey"
         rightTitle="Glow up mentally."
         rightDesc="Track your emotions, make friends, chat, and have a mental glow up! You’ll be surprised how your life changes around you once you express your emotions, work on it, and feel better."
         Appstore={AppStore}
@@ -74,7 +68,6 @@ const Landing = () => (
     <section className="landing-color3">
       <LeftAside
         img={wB4}
-        // alt="hey"
         leftTitle="Share your day."
         leftDesc="Record your feelings, share your voice and your daily moments with the world. What are 3 things you feel grateful for today? Build a daily positive habit and you can watch other people’s gratitude stories too."
         Appstore={AppStore}

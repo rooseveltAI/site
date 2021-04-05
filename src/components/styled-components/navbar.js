@@ -24,7 +24,7 @@ const Navbar = ({ siteTitle }) => {
           <LinkSection show={visible}>
             <li>
               <a href="https://holoash.typeform.com/to/cHGS6d7R">
-                <Button>Become an Ampassador</Button>
+                <Button>Become an Ambassador</Button>
               </a>
             </li>
           </LinkSection>

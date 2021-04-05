@@ -56,17 +56,15 @@
 
 .landing-color1 {
   padding: 0 15px;
-  background: var(--Green_Accent);
 }
 .landing-color2 {
   padding: 0 15px;
-  background: var(--Purple1_Secondary);
-  color: var(--WhiteOpacity90_Neutrals);
 
   @include for-phone-only {
     position: relative;
     .right-aside-container .wrap {
-      background: var(--Purple1_Secondary);
+      background: var(--WhiteOpacity90_Neutrals);
+      backdrop-filter: blur(40px);
       position: absolute;
       bottom: 5px;
       left: 0;
@@ -77,7 +75,8 @@
 }
 .landing-color3 {
   padding: 0 15px;
-  background: var(--Peach1_Primary);
+  background: var(--WhiteOpacity90_Neutrals);
+  backdrop-filter: blur(40px);
 }
 
 .testimonial-container {

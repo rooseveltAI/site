@@ -64,9 +64,11 @@
 @include for-phone-only {
   .write-up {
     margin-top: -16rem;
-    background: #7edbc4;
+    background: var(--WhiteOpacity90_Neutrals);
+    backdrop-filter: blur(40px);
   }
   .landing-color3 .write-up {
-    background: #fbd7ff;
+    background: var(--WhiteOpacity90_Neutrals);
+    backdrop-filter: blur(40px);
   }
 }
