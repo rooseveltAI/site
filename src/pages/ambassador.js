@@ -5,10 +5,10 @@ import { Check } from "react-feather"
 
 import Logo from "../images/assets/webelonglogo.svg"
 import AmbassadorImage from "../images/amb.png"
-import features from "../images/featured.png"
-import thread from "../images/thread.png"
-import community from "../images/wB2.png"
-import Join from "../images/joinwB.png"
+// import features from "../images/featured.png"
+// import thread from "../images/thread.png"
+// import community from "../images/wB2.png"
+// import Join from "../images/joinwB.png"
 
 import Footer from "../components/footer"
 
@@ -38,48 +38,6 @@ const Ambassador = () => (
 
     <Navbar />
 
-    {/* 
-    <header
-      style={{
-        background: `rgba(3, 3, 6, 0.9)`,
-        position: `fixed`,
-        zIndex: 2,
-        width: `100%`,
-
-        // marginBottom: `1.45rem`,
-      }}
-    >
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 1115,
-          padding: `1rem`,
-          display: `flex`,
-          justifyContent: `space-between`,
-          alignItems: `center`,
-        }}
-      >
-        <h1 style={{ margin: 0 }}>
-          <Link
-            to="/"
-            style={{
-              color: `white`,
-              textDecoration: `none`,
-            }}
-          >
-            <Logo />
-          </Link>
-        </h1>{" "}
-        <ul style={{ margin: 0 }} className="button-container">
-          <a href="https://holoash.typeform.com/to/cHGS6d7R">
-            <li className="button-wrapper ambassador">
-              <span>Become an Ambassador</span>
-            </li>
-          </a>
-        </ul>
-      </div>
-    </header>
-*/}
     <StyledBlackBackground>
       <div className="amb-header-container">
         <div className="aside-text-content">
