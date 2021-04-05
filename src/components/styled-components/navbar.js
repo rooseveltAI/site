@@ -77,6 +77,7 @@ const MenuButton = styled("button")`
   border: none;
   background: #ffffff00;
   color: white;
+  outline-color: var(--Purple1_Secondary);
   font-size: 1.1em;
   margin-top: 10px;
   padding: 5px 15px;
